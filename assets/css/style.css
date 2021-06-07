@@ -1,0 +1,109 @@
+.Container {
+  border: none;
+  background-color: white;
+  font-family: sans-serif;
+  margin-left: 20px;
+  width: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.Container:hover .Container {
+  -webkit-box-shadow: 5px 5px 5px gray;
+          box-shadow: 5px 5px 5px gray;
+}
+
+.Container:hover .Container .text1 {
+  height: 100%;
+}
+
+.Container header {
+  overflow: hidden;
+  border: none;
+}
+
+.Container header .indienne {
+  max-width: 100%;
+  opacity: 1;
+  height: 100%;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+  -webkit-transition-property: height;
+  transition-property: height;
+  -webkit-transition-property: width;
+  transition-property: width;
+}
+
+.Container header .date {
+  position: absolute;
+  border: none;
+  border-radius: 100%;
+  background-color: red;
+  color: white;
+  width: 60px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-left: 10px;
+  top: 50px;
+  right: 850px;
+}
+
+.Container header .photos {
+  position: absolute;
+  border: none;
+  background-color: red;
+  color: white;
+  width: 130px;
+  height: 40px;
+  font-size: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  top: 310px;
+  padding-top: 5px;
+}
+
+.Container article {
+  overflow: hidden;
+  line-height: 1.5;
+  width: 40%;
+  -webkit-transition-property: height;
+  transition-property: height;
+}
+
+.Container article h1 {
+  color: red;
+  font-size: 30px;
+  width: 40%;
+}
+
+.Container article .text1 {
+  height: 0px;
+}
+
+.Container footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.Container footer .horloge {
+  width: 25px;
+  text-align: center;
+}
+
+.Container footer .bulles {
+  width: 25px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
